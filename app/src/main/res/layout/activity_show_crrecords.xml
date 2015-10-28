@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.beswell.test.ShowActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/total_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/total_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/total_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_weight="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/acr_id"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/acr_cardcode"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/acr_plate"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/acr_ccType"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/acr_saleTime"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/acr_userName"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/acr_tel"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/acr_serviceType"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/acr_chargeType"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/acr_chargeMoney"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/acr_opid"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/acr_memo"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="5px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/acr_nextPage"
+            android:layout_weight="1"
+            android:text="下一页"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_shape"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/acr_item"
+            android:layout_weight="1"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Button
+            android:id="@+id/acr_prevPage"
+            android:layout_weight="1"
+            android:text="上一页"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_shape"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

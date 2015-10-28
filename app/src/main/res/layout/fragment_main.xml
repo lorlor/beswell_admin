@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f8f8ff">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15px">
+        
+        <EditText
+            android:id="@+id/plate"
+            android:capitalize="characters"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:hint="请输入车牌号"
+            android:focusableInTouchMode="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+        <Button
+            android:background="#4f4f4f"
+            android:id="@+id/plate_enter"
+            android:text="车牌登陆"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+        
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15px"
+            android:scrollbars="vertical"
+            android:fadingEdge="vertical">
+            <!-- 开卡服务-->
+            <Button
+                android:background="@drawable/buttonshape"
+                android:textColor="#ffffff"
+                android:textSize="35px"
+                android:id="@+id/create_card"
+                android:text="@string/create_card"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 现金洗车-->
+            <Button
+                android:background="@drawable/button_wash"
+                android:layout_marginTop="10px"
+                android:textSize="35px"
+                android:textColor="#787878"
+                android:id="@+id/cash_washing"
+                android:text="@string/cash_washing"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!--开卡记录-->
+            <Button
+                android:background="@drawable/button_record"
+                android:layout_marginTop="10px"
+                android:textSize="35px"
+                android:textColor="#ffffff"
+                android:id="@+id/card_record"
+                android:text="@string/card_record"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!--洗车记录-->
+            <Button
+                android:background="@drawable/button_record"
+                android:layout_marginTop="10px"
+                android:textSize="35px"
+                android:textColor="#ffffff"
+                android:id="@+id/wash_record"
+                android:text="@string/wash_record"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!--免费洗车-->
+            <Button
+                android:background="@drawable/button_wash"
+                android:layout_marginTop="10px"
+                android:textSize="35px"
+                android:textColor="#787878"
+                android:id="@+id/free_washing"
+                android:text="@string/free_washing"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!--在修车辆查询-->
+            <Button
+                android:background="@drawable/button_car"
+                android:layout_marginTop="10px"
+                android:textSize="35px"
+                android:textColor="#787878"
+                android:id="@+id/reparing_cars"
+                android:text="@string/repairing_cars"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!--完工车辆查询-->
+            <Button
+                android:background="@drawable/button_car"
+                android:layout_marginTop="10px"
+                android:textSize="35px"
+                android:textColor="#787878"
+                android:id="@+id/repaired_cars"
+                android:text="@string/repaired_cars"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!--退出系统-->
+<!--            <Button
+                android:background="@drawable/buttonshape"
+                android:layout_marginTop="10px"
+                android:textSize="35px"
+                android:textColor="#ffffff"
+                android:id="@+id/exit_system"
+                android:text="@string/exit_system"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

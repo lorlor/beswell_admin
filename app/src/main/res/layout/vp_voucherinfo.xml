@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/vi_plate"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/vi_ccType"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/vi_cardcode"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/vi_totalTimes"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/vi_leftTimes"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/vi_beginTime"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/vi_endTime"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginBottom="10px"
+        android:gravity="center"
+        android:layout_marginTop="5px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/vi_nextPage"
+            android:layout_weight="1"
+            android:text="下一页"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_shape"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/vi_item"
+            android:layout_weight="1"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Button
+            android:id="@+id/vi_prevPage"
+            android:layout_weight="1"
+            android:text="上一页"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_shape"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

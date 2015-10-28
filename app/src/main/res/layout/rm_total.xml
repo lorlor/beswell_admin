@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#838b8b">
+
+    <TextView
+        android:layout_marginTop="12px"
+        android:id="@+id/tt_am"
+        android:textSize="20sp"
+        android:textColor="#8470ff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="12px"
+        android:id="@+id/tt_atm"
+        android:textSize="20sp"
+        android:textColor="#8470ff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="12px"
+        android:id="@+id/tt_cm"
+        android:textSize="20sp"
+        android:textColor="#8470ff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="12px"
+        android:id="@+id/tt_lm"
+        android:textSize="20sp"
+        android:textColor="#8470ff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="12px"
+        android:id="@+id/tt_sm"
+        android:textSize="20sp"
+        android:textColor="#8470ff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="12px"
+        android:id="@+id/tt_sn"
+        android:textSize="20sp"
+        android:textColor="#8470ff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/plate_frag_cc"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="开卡信息填写"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/plate_card_code"
+                android:hint="卡号"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/plate_charge_money"
+                android:hint="金额"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="15px"
+                    android:layout_weight="2"
+                    android:text="选择类型"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <Spinner
+                    android:gravity="center"
+                    android:id="@+id/plate_cc_type"
+                    android:layout_weight="4"
+                    android:outlineProvider="bounds"
+                    android:prompt="@string/type"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/cc_type"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="15px"
+                    android:layout_weight="2"
+                    android:text="付款方式"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <Spinner
+                    android:gravity="center"
+                    android:id="@+id/plate_charge_type"
+                    android:layout_weight="4"
+                    android:prompt="@string/expense_way"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/expense"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="15px"
+                    android:layout_weight="2"
+                    android:text="客户类型"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <Spinner
+                    android:gravity="center"
+                    android:id="@+id/plate_customer_type"
+                    android:layout_weight="4"
+                    android:prompt="@string/customer_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/customer"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="主车牌号"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" />
+            <EditText
+                android:id="@+id/plate_main_plate"
+                android:hint="主车牌号"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="联系人信息填写"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/plate_cust_name"
+                android:hint="请输入联系人姓名"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/plate_cust_tel"
+                android:hint="请输入手机号"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="备注信息填写"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/plate_create_c_memo"
+                android:hint="请输入备注信息"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="车辆绑定信息填写"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/sf_plate_no1"
+                android:hint="第一辆车牌号"
+                android:editable="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/sf_plate_no2"
+                android:hint="第二辆车牌号"
+                android:editable="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/sf_plate_no3"
+                android:hint="第三辆车牌号"
+                android:editable="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/sf_create_c_submit"
+                    android:layout_weight="1"
+                    android:hint="@string/button_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/sf_create_c_back"
+                    android:layout_weight="1"
+                    android:hint="@string/button_back"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beswell.car" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/beswell_t"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IndexScreen"
+            android:label="@string/title_activity_frist_screen" >
+        </activity>
+        <activity
+            android:name=".ServiceOnPlate"
+            android:label="@string/title_activity_service_on_plate" >
+
+        </activity>
+        <activity
+            android:name="com.beswell.common.ShowWRRecords"
+            android:label="@string/title_activity_show_records" >
+        </activity>
+        <activity
+            android:name="com.beswell.common.ShowCRRecords"
+            android:label="@string/title_activity_show_crrecords" >
+        </activity>
+        <activity
+            android:name="com.beswell.common.ShowRedRecords"
+            android:label="@string/title_activity_show_red_records" >
+        </activity>
+        <activity
+            android:name="com.beswell.common.ShowRingRecords"
+            android:label="@string/title_activity_show_ring_records" >
+        </activity>
+        <activity
+            android:name="com.beswell.plateService.PlateShowCRRecords"
+            android:label="@string/title_activity_plate_show_crrecords" >
+        </activity>
+        <activity
+            android:name="com.beswell.plateService.PlateShowRmRecords"
+            android:label="@string/title_activity_plate_show_rm_records" >
+        </activity>
+        <activity
+            android:name="com.beswell.plateService.PlateShowCarinfo"
+            android:label="@string/title_activity_plate_show_carinfo" >
+        </activity>
+        <activity
+            android:name="com.beswell.plateService.ShowDetailRM"
+            android:label="@string/title_activity_show_items_rm" >
+        </activity>
+    </application>
+
+</manifest>

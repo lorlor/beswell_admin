@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/cw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="车牌"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/plate"
+                android:hint="请输入车牌号"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="洗车类型"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/cw_type"
+                android:prompt="@string/cc_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/cc_type" />
+
+            <TextView
+                android:text="付款金额"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/cw_chargemoney"
+                android:text="15"
+                android:hint="请输入付款现金金额"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="付款方式"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/cw_chargetype"
+                android:prompt="@string/expense_way"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/expense"/>
+
+            <TextView
+                android:text="洗车员工"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/cw_staff"
+                android:prompt="@string/cc_staff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/staffs"/>
+
+            <TextView
+                android:text="备注"
+                android:textColor="#ffffff"
+                android:background="#1c86ee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/cw_memo"
+                android:hint="备注"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/cw_submit"
+                    android:hint="@string/button_submit"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/cw_back"
+                    android:hint="@string/button_back"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.beswell.car.ServiceOnPlate">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/aw_voucher"
+                android:text="@string/aw_voucher"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/sw_voucher"
+                android:text="@string/sw_voucher"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/cc_record"
+                android:text="@string/cc_record"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/rm_record"
+                android:text="@string/rm_record"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/car_info"
+                android:text="@string/car_info"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/card_service"
+                android:text="@string/card_service"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/bind_car"
+                android:text="@string/bind_car"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/reset_passwd"
+                android:text="@string/reset_passwd"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

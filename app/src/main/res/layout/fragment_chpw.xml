@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chpw"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/old_passwd"
+        android:hint="@string/old_passwd"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/new_passwd"
+        android:hint="@string/new_passwd"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/confirm_passwd"
+        android:hint="@string/confirm_passwd"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/pwd_yes"
+            android:text="@string/yes"
+            android:textColor="#ffffff"
+            android:layout_marginRight="10px"
+            android:layout_marginLeft="10px"
+            android:background="@drawable/buttonshape"
+            android:layout_width="fill_parent"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/pwd_no"
+            android:text="@string/no"
+            android:textColor="#ffffff"
+            android:layout_marginRight="10px"
+            android:layout_marginLeft="10px"
+            android:background="@drawable/buttonshape"
+            android:layout_width="fill_parent"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        </LinearLayout>
+
+</LinearLayout>

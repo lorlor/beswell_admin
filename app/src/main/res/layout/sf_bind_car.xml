@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="beginning">
+
+    <TextView
+        android:text="卡号信息"
+        android:textColor="#ffffff"
+        android:background="#1c86ee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/bc_voucher"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:text="第一辆车"
+        android:textColor="#ffffff"
+        android:background="#1c86ee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/car_1"
+            android:editable="false"
+            android:hint="输入车牌号"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_weight="4"
+            android:id="@+id/car1_clear"
+            android:clickable="false"
+            android:text="清空"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    <TextView
+        android:text="第二辆车"
+        android:textColor="#ffffff"
+        android:background="#1c86ee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/car_2"
+            android:hint="输入车牌号"
+            android:editable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_weight="4"
+            android:id="@+id/car2_clear"
+            android:clickable="false"
+            android:text="清空"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="第三辆车"
+        android:textColor="#ffffff"
+        android:background="#1c86ee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/car_3"
+            android:hint="输入车牌号"
+            android:editable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_weight="4"
+            android:id="@+id/car3_clear"
+            android:clickable="false"
+            android:text="清空"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/bc_btnYes"
+            android:text="确认修改"
+            android:clickable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/bc_btnNo"
+            android:text="返回"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+</LinearLayout>

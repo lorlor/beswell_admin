@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.beswell.common.ShowRingRecords">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/total_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/total_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/total_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_weight="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/prm_id"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/prm_carman"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/prm_brandName"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/prm_CarMileage"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/prm_RequestDate"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/prm_ServiceCost"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/prm_SettlementName"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/prm_MainRepaire"
+                android:paddingLeft="20px"
+                android:layout_marginTop="12px"
+                android:textSize="20sp"
+                android:textColor="#c7c7c7"
+                android:background="@drawable/text_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/prm_detailedInfo"
+                android:text="维保详情"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="5px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/prm_nextPage"
+            android:layout_weight="1"
+            android:text="下一页"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_shape"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/prm_item"
+            android:layout_weight="1"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Button
+            android:id="@+id/prm_prevPage"
+            android:layout_weight="1"
+            android:text="上一页"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_shape"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

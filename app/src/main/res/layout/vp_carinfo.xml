@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.beswell.plateService.PlateShowCarinfo">
+
+    <TextView
+        android:id="@+id/pci_plate"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_marginTop="12px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pci_chassisNum"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_marginTop="12px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pci_engineNum"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_marginTop="12px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pci_brandName"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_marginTop="12px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pci_seriesName"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_marginTop="12px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pci_carColor"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_marginTop="12px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pci_phone"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_marginTop="12px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pci_buyDate"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_marginTop="12px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pci_userName"
+        android:textSize="20sp"
+        android:textColor="#c7c7c7"
+        android:background="@drawable/text_shape"
+        android:layout_marginTop="12px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
